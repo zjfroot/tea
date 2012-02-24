@@ -9,6 +9,9 @@ gem 'sqlite3'
 gem 'execjs'
 gem 'therubyracer'
 
+gem 'rails-i18n'
+gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
